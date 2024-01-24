@@ -10,6 +10,10 @@ hr{
     display: none;
 }
 
+.lista-rodape__link:hover{
+    color: var(--laranja);
+}
+
 @media screen and (min-width: 1024px){
     .rodape{
         display: flex;
@@ -39,5 +43,16 @@ hr{
         color: var(--cinza);
         text-decoration: none;
         margin-left: 0.6em;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .lista-rodape{
+        border-left: 1px solid  var(--cinza-claro);
+        padding-left: 1em;
+    }
+
+    .rodape{
+        padding: 3em 0;
     }
 }
